@@ -1,6 +1,6 @@
 #Pretius APEX Help Text Tooltip
 ##### Oracle APEX dynamic action plugin v1.0
-The plugin overrides native APEX help text presentation layer (inline dialog) with tooltips in Oracle APEX 5 and Universal Theme. The tooltip can be aligned using 24 positions and it can be aligned to item, item label and item help button.
+The plugin overrides native APEX help text presentation layer (inline dialog) with tooltips in Oracle APEX 5 and Universal Theme. The tooltip can be aligned using 24 positions and it can indicate item, item label and item help button.
 
 Live demo, instructions and more details about the plugin are available directly in [demo application](http://apex.pretius.com/apex/f?p=PLUGINS:HELPTEXT).
 
