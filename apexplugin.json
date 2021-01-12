@@ -1,27 +1,41 @@
 {
-  "name" : "Pretius APEX Help Text Tooltip",
+  "name" : "Pretius Help Text Tooltip",
   "version" : "1.0",
   "description" : "The plugin overrides native APEX help text presentation layer (inline dialog) with tooltips in Oracle APEX 5 and Universal Theme. The tooltip can be aligned using 24 positions and it can indicate item, item label and item help button.",
   "keywords" : ["help", "text", "tooltip", "UT"],
   "homepage" : "https://github.com/Pretius/apex-helptext-tooltip",
   "bugs" : {
     "url" : "https://github.com/Pretius/apex-helptext-tooltip/issues",
-    "email" : "apex@pretius.com"
+    "email" : "apex-plugins@pretius.com"
   },
   "license" : "MIT",
+  "commercial" : "No",
+  "commercially_supported":"Yes",  
   "author" : {
-    "name" : "Bartosz Ostrowski",
-    "email" : "bostrowski@pretius.com",
-    "url" : "http://pretius.com/technologies/oracle-apex/"
+    "name" : "Pretius",
+    "email" : "apex-plugins@pretius.com",
+    "url" : "http://www.pretius.com",
+    "twitter": "PretiusSoftware"
   },
   "repository" : {
     "type" : "git",
     "url" : "https://github.com/Pretius/apex-helptext-tooltip.git"
   },
   "oracle" : {
-    "versions" : ["11.2.0.1", "12.1.0.1"],
-    "apex" : {
-      "versions" : ["5.0.0"],
+    "versions": [
+      "11.2.0.1",
+      "12.1.0.1",
+      "12.2.0.1",
+      "18.0.0.0"
+    ],
+    "apex": { 
+      "versions": [
+        "18.1.0",
+        "18.2.0",
+        "19.1.0",
+        "19.2.0",
+        "20.1.0"
+      ],
       "plugin" : {
         "internalName" : "apex.help.text.tooltip",
         "type" : "item",
