@@ -40,7 +40,7 @@
         "internalName" : "apex.help.text.tooltip",
         "type" : "item",
         "demo" : "http://apex.pretius.com/apex/f?p=PLUGINS:HELPTEXT",
-        "previewImage" : "https://raw.githubusercontent.com/Pretius/apex-helptext-tooltip/master/preview.gif"
+        "previewImage" : "https://raw.githubusercontent.com/Pretius/apex-helptext-tooltip/master/images/preview.gif"
       }
     }
   }
